@@ -13,5 +13,4 @@ Você pode configurar um portal catch all captive mais três sites únicos para 
 
 
 ## Créditos
-Baseado no * projeto ESPortal * de Corey Harding www.legacysecuritygroup.com <br>
-Eu mantive a licença, pois a maior parte do código é deles.
+Baseado no * projeto ESPortal * de Corey Harding www.legacysecuritygroup.com <br
