@@ -1,4 +1,4 @@
-## Disclamer
+## Isenção de responsabilidade
 O uso indevido deste software pode resultar em atividades criminosas. O (s) autor (es) não serão responsabilizados por seu uso abusivo.
 
 ## Funções
