@@ -9,7 +9,7 @@ O LED embutido piscará 10 vezes para confirmar a inicialização bem-sucedida e
 
 ## Uso
 Simplesmente instale o sketch usando o Arduino IDE em uma placa compatível com ESP32, use a configuração SPIFFS correta e o pino do LED. Nenhum hardware extra é necessário. <br>
-Você pode configurar um portal catch all captive mais três sites únicos para hackear, de forma que, se o usuário acessar o site, uma página falsa seja apresentada para a coleta de credenciais. No ficheiro principal encontram-se todas as configurações, nomeadamente o SSID público WiFi e a página do portal cativo.
+Você pode configurar um portal captive mais três sites únicos para hackear, de forma que, se o usuário acessar o site, uma página falsa seja apresentada para a coleta de credenciais. No ficheiro principal encontram-se todas as configurações, nomeadamente o SSID público WiFi e a página do portal cativo.
 
 
 ## Créditos
